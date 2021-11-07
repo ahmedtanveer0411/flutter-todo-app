@@ -1,0 +1,31 @@
+name: to_do
+description: a simple to do list app ,made using flutter
+publish_to: "none" 
+version: 1.0.0+1
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.3
+  shared_preferences: ^2.0.6
+  provider: ^5.0.0
+  fluttertoast: ^8.0.7
+  bot_toast: ^4.0.1
+  path_provider: ^2.0.2
+  sqflite: ^2.0.0+3
+  url_launcher: ^6.0.9
+  rflutter_alert: ^2.0.2
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.9.0
+  flutter_test:
+    sdk: flutter
+flutter_icons:
+  android: "launcher_icon"
+  ios: "launcher_icon"
+  image_path: "assets/logo.png"
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
